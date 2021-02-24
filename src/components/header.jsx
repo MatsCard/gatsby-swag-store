@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { MenuItem, StyledHeader } from '../styles/components'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <StyledHeader>
     <Link to='/'>
       <img src='https://i.postimg.cc/6q3pg48v/Logo.png' alt='logo platzi swag'></img>
@@ -28,21 +28,6 @@ const Header = ({ siteTitle }) => (
 
     </nav>
     
-    <div
-
-    >
-      <h1>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
   </StyledHeader>
 )
 
