@@ -9,7 +9,6 @@
 const React = require('react')
 const Layout = require('./src/components/layout').default
 const {GlobalStyles} = require('./src/styles')
-const Fragment = require('react')
 
 exports.wrapRootElement = ({element}) => (
     <>
