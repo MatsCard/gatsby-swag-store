@@ -2609,7 +2609,7 @@
   "resolved" "https://registry.npmjs.org/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.16.0.tgz"
   "version" "2.16.0"
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", "babel-plugin-styled-components@>1.5.0":
   "integrity" "sha512-FEiD7l5ZABdJPpLssKXjBUJMYqzbcNzBowfXDCdJhOpbhWiewapUaY+LZGT8R4Jg2TwOjGjG4RKeyrO5p9sBkA=="
   "resolved" "https://registry.npmjs.org/babel-plugin-styled-components/-/babel-plugin-styled-components-1.12.0.tgz"
   "version" "1.12.0"
@@ -6399,6 +6399,13 @@
   "resolved" "https://registry.npmjs.org/gatsby-plugin-stripe/-/gatsby-plugin-stripe-1.2.4.tgz"
   "version" "1.2.4"
 
+"gatsby-plugin-styled-components@^4.0.0":
+  "integrity" "sha512-wV33OxkQTqS7Tw8Nez7XT+Sf9FnvNVqOYzGPZKFlApUjBJvBen2D/kDJCEUlwHA3164s6mqp/Qq/80lup3V6Yg=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
 "gatsby-plugin-typescript@^2.12.0":
   "integrity" "sha512-Gb8mPdIgAmlxb/EgH7h5ewq3nMJ+oU640AyfTCAp9GtQspRztRRKjuGceJH3gDVq8bO6wFOWxdRVYIC2KZF9mw=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.12.0.tgz"
@@ -6576,7 +6583,7 @@
     "semver" "^7.3.4"
     "sharp" "^0.27.0"
 
-"gatsby@^2.0.0", "gatsby@^2.0.100", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.79", "gatsby@^2.25.0", "gatsby@^2.8.8", "gatsby@>=1", "gatsby@>=2.0.15", "gatsby@>2.0.15":
+"gatsby@^2.0.0", "gatsby@^2.0.100", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.79", "gatsby@^2.25.0", "gatsby@^2.8.8", "gatsby@^3.0.0-next.0", "gatsby@>=1", "gatsby@>=2.0.15", "gatsby@>2.0.15":
   "integrity" "sha512-Jpqp8pwQJab6fpGdB3OmJk3UXqPvmYHH6YugF9CYfsTyJXy3yoOSxJ6hMzZeZxEnxeJ5RnJlGRyMEZJtpmy3ZQ=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-2.32.4.tgz"
   "version" "2.32.4"
@@ -11304,7 +11311,7 @@
     "strip-ansi" "3.0.1"
     "text-table" "0.2.0"
 
-"react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react-dom@^16.4.2 || ^17.0.0", "react-dom@^16.8.6", "react-dom@>= 16.3.0", "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3":
+"react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react-dom@^16.4.2 || ^17.0.0", "react-dom@^16.8.6", "react-dom@^16.9.0 || ^17.0.0", "react-dom@>= 16.3.0", "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3":
   "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
   "version" "16.14.0"
@@ -11375,7 +11382,7 @@
   "resolved" "https://registry.npmjs.org/react-typography/-/react-typography-0.16.19.tgz"
   "version" "0.16.19"
 
-"react@^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react@^16.14.0", "react@^16.4.2 || ^17.0.0", "react@^16.8.6", "react@>= 16.3.0", "react@>=15.0.0", "react@15.x || 16.x || 16.4.0-alpha.0911da3":
+"react@^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react@^16.14.0", "react@^16.4.2 || ^17.0.0", "react@^16.8.6", "react@^16.9.0 || ^17.0.0", "react@>= 16.3.0", "react@>=15.0.0", "react@15.x || 16.x || 16.4.0-alpha.0911da3":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
@@ -12999,7 +13006,7 @@
   dependencies:
     "inline-style-parser" "0.1.1"
 
-"styled-components@^4.3.1", "styled-components@>= 2":
+"styled-components@^4.3.1", "styled-components@>= 2", "styled-components@>=2.0.0":
   "integrity" "sha512-RNqj14kYzw++6Sr38n7197xG33ipEOktGElty4I70IKzQF1jzaD1U4xQ+Ny/i03UUhHlC5NWEO+d8olRCDji6g=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-4.4.1.tgz"
   "version" "4.4.1"

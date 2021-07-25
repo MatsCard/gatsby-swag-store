@@ -21,6 +21,7 @@ export const query = graphql`
           id
           unit_amount
           product{
+            active
             name
             metadata{
               img
