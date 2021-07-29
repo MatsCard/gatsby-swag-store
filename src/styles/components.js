@@ -213,7 +213,6 @@ export const StyledProductDetail = styled.div`
   display: flex;
   flex-direction: column;
   text-align: justify;
-  height: 82vh;
   img {
     width: 100%;
     object-fit: cover;
